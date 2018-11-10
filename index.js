@@ -4,7 +4,7 @@ const app = express();
 
 const fs = require('fs');
 const bodyParser = require('body-parser');
-
+const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json()); 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname + '/support_files'));
@@ -30,7 +30,7 @@ app.post('/form', (req, res) => {
 	res.send(feed);
 })
 
-app.listen(3000, ()=>{
+app.listen(PORT, ()=>{
 	console.log('server is live');
 })
 
