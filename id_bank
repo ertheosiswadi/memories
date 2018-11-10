@@ -1,0 +1,39 @@
+#Nav1
+	nav_home
+	nav_login
+	nav_signup
+	nav_home_icon
+
+#Form
+	select_category
+	select_heading
+	select_body
+	select_radio_vidimg
+	select_radio_vid
+	select_radio_img
+	select_vid_url
+	select_image <--type=file
+	post_button
+
+#Search
+
+#Feed
+	post_category
+	post_heading
+	post_body
+	post_media <-- div
+	post_date
+
+#Nav2
+	filter_hot
+	filter_music
+	filter_thoughts
+
+{
+	category: 'hot/music/thoughts',
+	heading: 'I am heading',
+	body: 'body',
+	media: 'vid/img/none',
+	vid_url: 'youtube.com',
+	image: '2.png',
+}
